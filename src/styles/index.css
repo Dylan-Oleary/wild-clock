@@ -1,0 +1,29 @@
+body {
+    background: black;
+}
+
+/* Styling for all the text elements on the screen */
+.tv-text {
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Arial";
+    line-height: 1.2em;
+}
+
+/* All the text elements are wrapped with this. This forces */
+/* the div to not take up the entire width of the screen from */
+/* the start. This allows us to animate it. */
+#wrapper {
+    display: inline-block;
+}
+
+#time {
+    font-size: 20vw;
+}
+#day {
+    font-size: 10vw;
+}
+#date {
+    font-size: 10vw;
+}
