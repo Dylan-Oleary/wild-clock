@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://wild-clock.netlify.app",
     title: "Wild Clock",
   },
   plugins: [
@@ -15,6 +15,7 @@ module.exports = {
         background_color: `#000`,
         theme_color: `#FFFF00`,
         display: `standalone`,
+        icon: `src/images/icon.png`
       },
     },
     {
